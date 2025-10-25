@@ -3,16 +3,16 @@
 
 #solve
 
-# print('---User print the Even or Odd number----')
+print('---User print the Even or Odd number----')
 
-# user_input = int(input("Enter your random number: "))
+user_input = int(input("Enter your random number: "))
 
-# user = user_input
+user = user_input
 
-# if user % 2 == 0:
-#     print("The Even Number")
-# else:
-#     print("Odd Number")
+if user % 2 == 0:
+    print("The Even Number")
+else:
+    print("Odd Number")
 
 
 
@@ -20,16 +20,16 @@
 #Write a program that will tell whether the given year is a leap year or not.
 #solve
 
-# print("---The calculate by leap year.")
+print("---The calculate by leap year.")
 
-# user_input_year = int(input("Enter the year: "))
+user_input_year = int(input("Enter the year: "))
 
-# if user_input_year % 400 == 0 and user_input_year % 100 == 0:
-#     print(f'{user_input_year} is a leap year')
-# elif user_input_year % 4 == 0 and user_input_year % 100 !=0 :
-#     print(f'{user_input_year} is a the leap year.')
-# else:
-#     print(f'The input not a {user_input_year} leap year') 
+if user_input_year % 400 == 0 and user_input_year % 100 == 0:
+    print(f'{user_input_year} is a leap year')
+elif user_input_year % 4 == 0 and user_input_year % 100 !=0 :
+    print(f'{user_input_year} is a the leap year.')
+else:
+    print(f'The input not a {user_input_year} leap year') 
 
 
 ##question
