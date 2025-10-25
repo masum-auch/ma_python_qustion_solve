@@ -48,4 +48,4 @@ user_y2 = int(input("Enter your Y2 number: "))
 
 distance = math.sqrt((user_x2 - user_x1)**2 + (user_y2 - user_y1)**2)
 
-print(f'euclidean distance between two coordinates {distance}')
+print(f'Euclidean distance between two coordinates {distance}') 
