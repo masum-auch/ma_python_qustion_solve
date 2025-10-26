@@ -3,21 +3,21 @@
 
 #solve
 
-# print("---Create a Traingle---")
-# site_01 = int(input("Enter your x angle number: "))
-# site_02 = int(input("Enter your y angel number: "))
-# site_03 = int(input("Enter your z angle number: "))
+print("---Create a Traingle---")
+site_01 = int(input("Enter your x angle number: "))
+site_02 = int(input("Enter your y angel number: "))
+site_03 = int(input("Enter your z angle number: "))
 
-# angle = (site_01 + site_02 + site_03)
+angle = (site_01 + site_02 + site_03)
 
-# print("Total point number", angle)
+print("Total point number", angle)
 
-# the_traingle = 180
+the_traingle = 180
 
-# if angle == the_traingle and site_01 > 0 and site_02 > 0 and site_03 > 0:
-#     print("Create a traingle")
-# else:
-#     print("not create a traingle")
+if angle == the_traingle and site_01 > 0 and site_02 > 0 and site_03 > 0:
+    print("Create a traingle")
+else:
+    print("not create a traingle")
 
 
 ##question
@@ -26,19 +26,19 @@
 #solve
 
 
-# print("---User Profit---")
+print("---User Profit---")
 
-# cost_price = int(input("Enter you costing price: "))
-# selling_price = int(input("Enter you selling price: "))
+cost_price = int(input("Enter you costing price: "))
+selling_price = int(input("Enter you selling price: "))
 
-# if selling_price > cost_price:
-#     profit = selling_price - cost_price
-#     print(f" You profit {profit}")
-# elif selling_price < cost_price:
-#     loss = selling_price - cost_price
-#     print(f"you loss {loss}")
-# else:
-#     print("NO loss, No profit") 
+if selling_price > cost_price:
+    profit = selling_price - cost_price
+    print(f" You profit {profit}")
+elif selling_price < cost_price:
+    loss = selling_price - cost_price
+    print(f"you loss {loss}")
+else:
+    print("NO loss, No profit") 
 
 
 ##question
